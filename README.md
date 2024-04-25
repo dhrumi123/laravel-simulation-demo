@@ -57,8 +57,7 @@ php artisan serve
 127.0.0.1:8000
 ```
 
-#### working video URL
-```sh
-https://www.awesomescreenshot.com/video/27074773?key=5b568afa93e6c38e5edb02b55e207776
-```
+[Working video](https://shorturl.at/cAGI8)
+
+
 
