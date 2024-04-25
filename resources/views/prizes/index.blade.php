@@ -41,9 +41,11 @@
                                 <td>{{ $prize->title }}</td>
                                 <td>{{ $prize->probability }}</td>
                                 <td>
-                                    @foreach ($prize->awardedPrizes as $awardedPrize)
-                                        {{ $awardedPrize->awarded_count }}<br>
-                                    @endforeach
+                                    @forelse ($prize->awardedPrizes as $awardedPrize)
+                                        {{ $awardedPrize->awarded_count }}
+                                    @empty
+                                        0
+                                    @endforelse
                                 </td>
                                 <td>
                                     <div class="d-flex gap-2">
