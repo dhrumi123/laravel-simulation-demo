@@ -31,6 +31,7 @@
 
 
 		{{ Form::submit('Create', array('class' => 'btn btn-primary')) }}
+		{{ Form::button('Cancel', ['class' => 'btn btn-secondary', 'onclick' => "window.location.href='" . route('prizes.index') . "'"]) }}
 
 	{{ Form::close() }}
 
