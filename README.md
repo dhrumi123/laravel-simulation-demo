@@ -7,8 +7,10 @@ This Laravel project simulates a prize winner event, allowing you to configure p
 - Effortlessly define prizes with names and probabilities.
 - Run simulations with a specified number of participants.
 - Generate detailed reports on the distribution of prizes awarded, ensuring they align with the configured odds.
-- Display the prizes probibility and actual doughnut chart
-- Display the actual awarded probibility and actual doughnut chart
+- Display the prizes probibility and doughnut chart
+- Display the actual awarded probibility and doughnut chart
+- Delete prize with the confirmation
+- Different types of validtions we have used while creating and updating
 
 ## Tech
 
